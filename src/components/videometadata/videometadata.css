@@ -1,0 +1,63 @@
+.cover-metadata{
+    color:white;
+   margin-left:5px;
+    margin-top:30px;
+    font-size:22px;
+    font-weight:400px;
+    margin-bottom:80px;
+}
+.like-section span{
+    margin-right:20px;
+}
+.like-section{
+    margin:10px 0px;
+    font-weight:400;
+
+}
+.video-title{
+   
+    font-weight:400;
+    margin-bottom:20px;
+
+}
+
+.subcribers{
+    margin-bottom:6px;
+    border-radius:6px;
+    background:rgb(74, 114, 74);
+    padding:8px 12px;
+}
+
+.channel-metadata{
+    margin-bottom:6px;
+}
+
+.channel-metadata button{
+    padding:7px 9px;
+    border-radius:3px;
+    margin-top:3px;
+    cursor:pointer;
+    transition:all 1s ease;
+}
+
+.channel-metadata button:hover{
+    background:rgb(182, 125, 125);
+}
+.lil-adjust{
+    display:flex;
+    justify-content:space-between;
+
+    padding-bottom:30px;
+    border-bottom:2px solid grey;
+}
+
+
+@media(max-width:700px){
+    .cover-metadata{
+        font-size:17px;
+        padding:0px 0px;
+    }
+    .lil-adjust{
+        flex-direction:column;
+    }
+}

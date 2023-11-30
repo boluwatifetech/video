@@ -1,0 +1,55 @@
+.images{
+height:100%;
+width:100%;
+position:relative;
+}
+.coverall-video{
+    gap:25px;
+    box-shadow:2px 3px 3px 3px rgb(99, 95, 95);
+    padding:15px 20px;
+    max-width:300px;
+    width:100%;
+    cursor:pointer;
+    transition:all 1s ease;
+    border-radius:10px;
+}
+.coverall-video:hover{
+    transform:scale(0.96)
+}
+.images img{
+height:200px;
+width:300px;
+border-radius:7px;
+width:100%;
+
+}
+.images span{
+    position:absolute;
+    bottom:8px;
+    right:0;
+    background:black;
+    padding:4px 7px;
+    border-radius:2px;
+    color:white;
+}
+.cover-content{
+    margin-top:10px;
+}
+
+.cover-content p{
+    color:rgb(231, 224, 224);
+    margin-bottom:4px;
+}
+
+.icon img{
+    height:50px;
+    width:60px;
+    border-radius:50%;
+    margin-right:6px;
+    
+}
+.icon{
+    display:flex;
+    align-items:center;
+
+}

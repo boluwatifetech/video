@@ -1,0 +1,10 @@
+
+
+
+const _comments=comments?.map(comment=>comment.snippet.topLevelComment.snippet)
+
+{
+    _comments?.map((comment,index)=>{
+       <Comments comment={comment} key={index}/>
+    })
+}

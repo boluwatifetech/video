@@ -1,0 +1,23 @@
+.body-video{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    place-items:center;
+    align-items:center;
+    justify-items:center;
+    gap:25px;
+}
+
+.container-body{
+    background-color:rgb(68, 64, 64)
+}
+
+@media(max-width:1220px){
+    .body-video{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(max-width:700px){
+    .body-video{
+        grid-template-columns:  1fr;
+    }
+}

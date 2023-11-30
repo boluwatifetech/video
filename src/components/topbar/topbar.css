@@ -1,0 +1,29 @@
+.coverall-topbar{
+    display:flex;
+overflow-x:scroll;
+
+padding:15px 0px;
+}
+.coverall-topbar::-webkit-scrollbar{
+    width:0;
+}
+.coverall-topbar span {
+    margin-right:7px;
+    text-transform:capitalize;
+    white-space:nowrap;
+    border:1px solid rgb(39, 38, 38);
+    border-radius:5px;
+    padding:8px 12px;
+    box-shadow:2px 2px 3px 2px rgb(39, 36, 36);
+color:white;
+    transition:all 1s ease;
+    cursor:pointer;
+}
+
+
+.coverall-topbar span:hover{
+    color:white;
+    background:rgb(37, 37, 37);
+}
+
+
